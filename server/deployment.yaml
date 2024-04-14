@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: host
+  name: host
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: host
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        run: host
+    spec:
+      containers:
+      - image: us.icr.io/sn-labs-mailatwork23/host:latest
+        imagePullPolicy: Always
+        name: host
+        ports:
+        - containerPort: 8000
+          protocol: TCP
+      restartPolicy: Always
