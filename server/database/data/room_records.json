@@ -1,0 +1,203 @@
+{"rooms":[
+  {
+      "room": "Single Bedroom",
+      "amenities": "WiFi, TV, Private Bathroom",
+      "host_id": 1
+  },
+  {
+      "room": "Studio Apartment",
+      "amenities": "Kitchenette, AC, Laundry",
+      "host_id": 2
+  },
+  {
+      "room": "Shared Dormitory",
+      "amenities": "Bunk Beds, Shared Bathroom",
+      "host_id": 3
+  },
+  {
+      "room": "Private Cabin",
+      "amenities": "Fireplace, Mountain View",
+      "host_id": 4
+  },
+  {
+      "room": "Luxury Suite",
+      "amenities": "Jacuzzi, King Bed, Balcony",
+      "host_id": 5
+  },
+  {
+      "room": "Beach Bungalow",
+      "amenities": "Ocean View, Hammock",
+      "host_id": 6
+  },
+  {
+      "room": "Rustic Cottage",
+      "amenities": "Wood Stove, Forest Access",
+      "host_id": 7
+  },
+  {
+      "room": "Urban Loft",
+      "amenities": "City View, Modern Decor",
+      "host_id": 8
+  },
+  {
+      "room": "Family House",
+      "amenities": "Backyard, Playground",
+      "host_id": 9
+  },
+  {
+      "room": "Country Farmhouse",
+      "amenities": "Garden, Fresh Produce",
+      "host_id": 10
+  },
+  {
+      "room": "Cozy Chalet",
+      "amenities": "Fireplace, Ski-in/Ski-out",
+      "host_id": 11
+  },
+  {
+      "room": "Historic Manor",
+      "amenities": "Antique Furnishings, Grand Hall",
+      "host_id": 12
+  },
+  {
+      "room": "Secluded Retreat",
+      "amenities": "Hot Tub, Forest Trails",
+      "host_id": 13
+  },
+  {
+      "room": "City Condo",
+      "amenities": "Downtown Location, Gym",
+      "host_id": 14
+  },
+  {
+      "room": "Mountain Lodge",
+      "amenities": "Scenic Views, Hiking Trails",
+      "host_id": 15
+  },
+  {
+      "room": "Tropical Villa",
+      "amenities": "Private Pool, Oceanfront",
+      "host_id": 16
+  },
+  {
+      "room": "Lakefront Cabin",
+      "amenities": "Fishing Dock, BBQ Grill",
+      "host_id": 17
+  },
+  {
+      "room": "Safari Tent",
+      "amenities": "Outdoor Shower, Wildlife Viewing",
+      "host_id": 18
+  },
+  {
+      "room": "Riverfront Yurt",
+      "amenities": "Rafting Access, Riverside Deck",
+      "host_id": 19
+  },
+  {
+      "room": "Treehouse Retreat",
+      "amenities": "Canopy Bed, Zip Line",
+      "host_id": 20
+  },
+  {
+      "room": "Desert Glamping",
+      "amenities": "Stargazing Deck, Sand Dunes",
+      "host_id": 21
+  },
+  {
+      "room": "Eco-Friendly Cottage",
+      "amenities": "Solar Power, Rainwater Harvesting",
+      "host_id": 22
+  },
+  {
+      "room": "Mountain Hut",
+      "amenities": "Alpine Views, Trailhead Access",
+      "host_id": 23
+  },
+  {
+      "room": "Riverside B&B",
+      "amenities": "Breakfast Included, Kayak Rental",
+      "host_id": 24
+  },
+  {
+      "room": "Island Resort",
+      "amenities": "Private Beach, Snorkeling",
+      "host_id": 25
+  },
+  {
+      "room": "Luxury Penthouse",
+      "amenities": "Panoramic Views, Butler Service",
+      "host_id": 26
+  },
+  {
+      "room": "Mountain View Cabin",
+      "amenities": "``Fireplace, Mountain View",
+      "host_id": 27
+  },
+  {
+      "room": "Beachfront Villa",
+      "amenities": "Infinity Pool, Beach Access",
+      "host_id": 28
+  },
+  {
+      "room": "Countryside Chalet",
+      "amenities": "Scenic Views, Fireplace",
+      "host_id": 29
+  },
+  {
+      "room": "City Penthouse",
+      "amenities": "Skyline View, Luxury Decor",
+      "host_id": 30
+  },
+  {
+    "room": "Oceanfront Suite",
+    "amenities": "Balcony, Sea View",
+    "host_id": 31
+},
+{
+    "room": "Rural Farmstay",
+    "amenities": "Animal Interaction, Farm Tours",
+    "host_id": 32
+},
+{
+    "room": "Vineyard Cottage",
+    "amenities": "Wine Tasting, Vineyard Views",
+    "host_id": 33
+},
+{
+    "room": "Mountain Retreat",
+    "amenities": "Peaceful Surroundings, Hiking Trails",
+    "host_id": 34
+},
+{
+    "room": "Lakeview Cabin",
+    "amenities": "Deck, Fishing Gear",
+    "host_id": 35
+},
+{
+    "room": "Jungle Lodge",
+    "amenities": "Wildlife Safaris, Canopy Walk",
+    "host_id": 36
+},
+{
+    "room": "Historic Guesthouse",
+    "amenities": "Period Furnishings, Garden",
+    "host_id": 37
+},
+{
+    "room": "Snowy Chalet",
+    "amenities": "Skiing, Snowboarding",
+    "host_id": 38
+},
+{
+    "room": "Beachside Cabin",
+    "amenities": "Sunset Views, Beach Access",
+    "host_id": 39
+},
+{
+    "room": "Lakefront Lodge",
+    "amenities": "Boat Rental, Lakeside BBQ",
+    "host_id": 40
+}
+]
+}

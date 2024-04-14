@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  # Flask sentiment analyzer service
+  api:
+    image: sentimentapp
+    ports:
+      - 5000:5000
