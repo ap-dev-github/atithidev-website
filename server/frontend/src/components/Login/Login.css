@@ -1,0 +1,94 @@
+.navcontainer{
+  display: flex;
+  flex: 1;
+
+  flex-direction: row;
+  margin: auto;
+  margin-top: 2%;
+  background-color: rgb(97, 64, 128);
+  align-items: flex-start;
+}
+
+.navitems{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  flex: 1;
+  justify-content: flex-start;
+  justify-self: center;
+}
+
+.nav_item{
+  margin-left:15px;
+  font-size: 20px;
+  color: azure;
+  align-self: center;
+}
+
+.input {
+  padding: 0.438rem 0.438rem;
+  font-size: 1rem;
+  margin:1rem 0.5rem;
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+.input_field{
+  height:20px;
+  width:400px; 
+  font-weight: bold;
+  font-size: large;
+ 
+  
+}
+
+.banner{
+    width:30vw;
+    height:30vh;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    background-color:rgba(239, 239, 239, 0.51);
+    border-radius: 2%;
+    
+}
+
+.button{
+  margin-left:3rem;
+  margin-top: 0.7rem;
+}
+
+.button-1{
+  margin-left:0.5rem;
+  margin-top: 0.7rem;
+}
+
+
+
+.small_header{
+  font: 30px sans-serif;
+  color:azure;
+  margin: .5cm;
+}
+
+.username{
+  font: 30px sans-serif;
+  color:azure;
+  margin: .5cm;
+  justify-content: 'flex-end';
+  align-self:flex-end;
+}
+
+.login_panel {
+  margin: 1.5rem 1rem;
+  width: 80%; 
+  padding: 1rem;
+  justify-content:center;
+  align-items: center;
+  vertical-align: middle;
+  
+}
