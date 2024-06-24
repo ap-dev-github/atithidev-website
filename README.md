@@ -1,4 +1,4 @@
-This website is deployed as a microservice architecture all the important links are given below:
+This website works on the microservice architecture all the important links are given below:
 ***********************************************************************************************
 VISIT THE WEBSITE : https://atithidev-main-v1-0-0.onrender.com 
 **********************************************************************************************
