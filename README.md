@@ -46,6 +46,8 @@ add the url of the database to .env(environment variables) file in the server/dj
 backend_url=' https://db-api-microservice-v1-0-0.onrender.com'
 sentiment_analyzer_url='https://sentimentapp-v1-0-0.onrender.com/'
 
+Go to settings.py and add the onrender.com to csrf trusted host and allowed host.
+
 
 go to the 8000 port of the local host 
 SUCCESS! you will see the website running like for any problem contact @ inbox.ayushpandey@gmail.com or linkedIn id @linkedap
