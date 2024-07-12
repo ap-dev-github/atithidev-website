@@ -23,8 +23,8 @@ SOME BASIC INFO ABOUT WEBSITE:-
  -Also, SQLite is used for user management and relational database models.
  and a proxy is also used for communication between different APIs
 
-HOW TO RUN THE WEBSITE?
- -Step 1:Run the Django server go to the server directory and write the below commands
+HOW TO RUN THE WEBSITE ON THE LOCAL HOST ?
+ -Step 1: Clone the repository run the Django server go to the server directory and write the below commands
  ```
  pip install virtualenv
  virtualenv djangoenv
