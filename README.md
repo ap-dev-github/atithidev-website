@@ -9,8 +9,10 @@
 
 ###The video  of website in action is available on the link:  https://drive.google.com/file/d/1ZWJVsZtbd15ho0pAMKMBn-RrFigO4gkS/view?usp=drive_link 
 ##SOME BASIC INFO ABOUT WEBSITE:-
- -This website is made using the microservice concept. Here we have used a Sentiment analyzer to analyze the emotions of the customers in real time.
+ This website is made using the microservice concept. Here we have used a Sentiment analyzer to analyze the emotions of the customers in real time.
+ 
  -IT Uses an express-based API that stores and fetches from the MongoDB database. We have populated some initial data in the databases.
+ 
  -Also, SQLite is used for user management and relational database models.
  and a proxy is also used for communication between different APIs
 
