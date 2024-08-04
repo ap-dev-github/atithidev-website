@@ -48,23 +48,26 @@ const Login = ({ onClose }) => {
         onClick={(e) => {
           e.stopPropagation();
         }}
-        className='modalContainer'
       >
-        <div class="banner" >
-          <form className="login_panel" style={{}} onSubmit={login}>
-              <div>
-              <span className="input_field">Username </span>
-              <input type="text"  name="username" placeholder="Username" className="input" onChange={(e) => setUserName(e.target.value)}/>
+      
+        <div class="main_banner" >
+          <form style={{}} onSubmit={login}>
+              <div class="input_section">
+              <label for="username" class="input_label">Username </label>
+              <input type="text"  name="username" placeholder="Username" class="input" onChange={(e) => setUserName(e.target.value)}/>
               </div>
-              <div>
-              <span className="input_field">Password </span>
-              <input name="password" type="password"  placeholder="Password" className="input" onChange={(e) => setPassword(e.target.value)}/>            
+              <div class="input_section">
+              <label for="password" className="input_label"> Password </label>
+              <input name="password" type="password"  placeholder="Password" class="input" onChange={(e) => setPassword(e.target.value)}/>            
               </div>
+
+              <div className="button-section">
               <p>
-              <button type="submit" class="btn btn-info button-1"  >Login</button>
-              <button class="btn btn-light button " type="button"   onClick={()=>setOpen(false)}>Cancel</button>
-             </p>
-              <a class="btn btn-success button-1" href="/register">Register Now</a>
+              <button type="submit" class="btn" id="btn-login"  >Login</button>
+              <button className="btn" id="btn-cancel" type="button"   onClick={()=>setOpen(false)}>Cancel</button>
+              </p>
+              <a className="btn" id="btn-register" href="/register">Register Now</a>
+              </div>
           </form>
           </div>
       </div>

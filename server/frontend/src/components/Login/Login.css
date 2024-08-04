@@ -1,94 +1,101 @@
-.navcontainer{
+.main_banner{
+  margin: 5% auto;
+  width: fit-content;
+  height:60vh;
   display: flex;
-  flex: 1;
-
-  flex-direction: row;
-  margin: auto;
-  margin-top: 2%;
-  background-color: rgb(97, 64, 128);
-  align-items: flex-start;
+align-items: center;
+justify-content:center;
+  background-color:#dce8ffc3;
+  border-radius: 1%;
+  border-top: 10px solid #2062c5;  
 }
-
-.navitems{
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  flex: 1;
-  justify-content: flex-start;
-  justify-self: center;
-}
-
-.nav_item{
-  margin-left:15px;
-  font-size: 20px;
-  color: azure;
-  align-self: center;
-}
-
-.input {
-  padding: 0.438rem 0.438rem;
-  font-size: 1rem;
-  margin:1rem 0.5rem;
-  display: block;
-  width: 100%;
-  border: none;
-}
-
-.input_field{
-  height:20px;
-  width:400px; 
-  font-weight: bold;
+.input_label{
+  margin-right: 0.5rem;
   font-size: large;
- 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+.input_section{
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+}
+.input{
+  outline:none; 
+}
+.input:hover{
   
+  border: 2px solid #86b0fdad;
 }
-
-.banner{
-    width:30vw;
-    height:30vh;
-    margin:50px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex:1;
-    background-color:rgba(239, 239, 239, 0.51);
-    border-radius: 2%;
-    
-}
-
-.button{
-  margin-left:3rem;
-  margin-top: 0.7rem;
-}
-
-.button-1{
-  margin-left:0.5rem;
-  margin-top: 0.7rem;
+.btn{
+  margin:0.5rem  1rem;
+  padding:0.5rem 0.5rem;
+  text-decoration: none;
+  border:none;
+  border-radius: 1%;
 }
 
 
-
-.small_header{
-  font: 30px sans-serif;
-  color:azure;
-  margin: .5cm;
+#btn-login{
+  color:white;
+  font-weight:bold;
+background-color: #2062c5;
+}
+#btn-login:hover{
+  background-color: #4576c1;
 }
 
-.username{
-  font: 30px sans-serif;
-  color:azure;
-  margin: .5cm;
-  justify-content: 'flex-end';
-  align-self:flex-end;
+#btn-cancel{
+  color:white;
+  font-weight:bold;
+background-color: rgba(211, 31, 31, 0.748);
+}
+#btn-cancel:hover{
+  background-color: rgba(212, 87, 87, 0.748);
 }
 
-.login_panel {
-  margin: 1.5rem 1rem;
-  width: 80%; 
-  padding: 1rem;
-  justify-content:center;
-  align-items: center;
-  vertical-align: middle;
+
+#btn-register{ 
+  color:white;
+  font-weight:bold;
+  margin-top: 0.5%;
+background-color: rgba(0, 128, 0, 0.789);
+}
+#btn-register:hover{
+  background-color:  rgba(48, 165, 48, 0.789);
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .main_banner {
+    height: 34vh;
+    margin: 28% auto;
+    width: 68vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_banner {
+    height: 40vh;
+    margin: 34% auto;
+    width: 88vw;
+  }
+}
+
+@media (max-width: 556.8px) {
+  .main_banner {
+    height: 48vh;
+    margin: 20% auto;
+    width: 88vw;
+  }
   
+  .button-section,
+  .btn-login,
+  .btn-cancel,
+  .btn-register {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
 }

@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 const cors = require('cors')
 const app = express()
-const port = 3030;
+
+
 
 app.use(cors())
 app.use(require('body-parser').urlencoded({ extended: false }));
@@ -12,7 +13,19 @@ app.use(require('body-parser').urlencoded({ extended: false }));
 const reviews_data = JSON.parse(fs.readFileSync("reviews.json", 'utf8'));
 const hosts_data = JSON.parse(fs.readFileSync("hosts.json", 'utf8'));
 
-mongoose.connect("mongodb://mongo_db:27017/", { 'dbName': 'dealershipsDB' });
+
+mongoose.connection.on('connected', () => {
+  console.log('Mongoose connected to MongoDB');
+});
+
+mongoose.connection.on('error', (err) => {
+  console.error('Mongoose connection error:', err);
+});
+
+mongoose.connection.on('disconnected', () => {
+  console.log('Mongoose disconnected');
+});
+mongoose.connect("mongodb+srv://inboxayushpandey:inboxayushpandey2314@atithidev.prajrvm.mongodb.net/?retryWrites=true&w=majority&appName=atithidev");
 
 
 const Reviews = require('./review');
@@ -32,8 +45,8 @@ try {
 
 
 //Express route to home
-app.get('/', async (res, req) => {
-  res.send("Welcome to Mongoose API'")
+app.get('/', async (req, res) => {
+  res.send("Welcome to Mongoose API Its and running man cheers....'")
 });
 
 //Express route to fetch all reviews by particular host id
@@ -115,6 +128,6 @@ app.post('/insert_review', express.raw({ type: '*/*' }), async (req, res) => {
 });
 
 // Start the Express server
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+app.listen(3000, () => {
+  console.log(`Server is running on http://localhost:${3000}`);
 });

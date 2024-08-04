@@ -1,0 +1,5 @@
+# Exclude Django virtual environment
+djangoenv/
+
+# Exclude Node.js modules
+node_modules/
