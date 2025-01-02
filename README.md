@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-frontend/src/package.json script changed
+
 //include this to run nodemon in package.json inside scripts indside frontend app.js directory
 
  <!-- "watch": "nodemon --watch src --ext js,jsx,ts,tsx --exec \"npm run build\"", -->
@@ -77,7 +76,7 @@ go to the 8000 port of the local host
 SUCCESS! you will see the website running like for any problem contact @ inbox.ayushpandey@gmail.com or linkedIn id @linkedap
 
 THANKS FOR READING ....   :)
->>>>>>> 5a6523eaeb1c261e5a30002861c026e6ca8df79f
+
 
 
 
